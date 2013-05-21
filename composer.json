@@ -15,9 +15,14 @@
         "php": ">=5.4",
         "mockery/mockery": "dev-master",
         "symfony/framework-bundle": "~2.2",
-        "jbuilder/common": "dev-master"
+        "jbuilder/common": "1.0.*@dev"
     },
     "autoload": {
       "psr-0": { "JBuilder\\JBuilderBundle": "src/" }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
     }
 }
