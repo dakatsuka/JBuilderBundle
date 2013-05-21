@@ -4,7 +4,7 @@ namespace JBuilder\JBuilderBundle\Service;
 
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpKernel\Kernel;
-use JBuilder;
+use JBuilder\Common\Encoder;
 
 /**
  * JBuilder for Symfony2
@@ -48,7 +48,7 @@ class JBuilderResponse
             $response = new Response();
         }
 
-        $json = JBuilder\JBuilder::encodeFromFile($this->getPath($view), $parameters);
+        $json = Encoder::encodeFromFile($this->getPath($view), $parameters);
         $response->setContent($json);
 
         return $response;

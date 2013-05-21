@@ -14,14 +14,11 @@
     "require": {
         "php": ">=5.4",
         "mockery/mockery": "dev-master",
-        "jbuilder/jbuilder": "dev-master",
-        "symfony/http-foundation": ">=2.2",
-        "symfony/http-kernel": ">=2.2",
-        "symfony/dependency-injection": ">=2.2",
-        "symfony/config": ">=2.2"
+        "symfony/framework-bundle": "~2.2",
+        "jbuilder/common": "dev-master"
     },
     "autoload": {
-      "psr-0": { "JBuilder\\JBuilderBundle": "" }
+      "psr-0": { "JBuilder\\JBuilderBundle": "src/" }
     },
     "minimum-stability": "dev"
 }
