@@ -1,0 +1,5 @@
+services:
+    jbuilder:
+        class: JBuilder\JBuilderBundle\Service\JBuilderResponse
+        calls:
+            - [ setKernel, [ @kernel ] ]

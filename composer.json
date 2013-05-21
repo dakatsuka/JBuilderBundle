@@ -1,0 +1,27 @@
+{
+    "name": "jbuilder/jbuilder-bundle",
+    "type": "library",
+    "description": "Symfony2 bundle for JBuilder",
+    "keywords": ["json", "symfony2"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dai Akatsuka",
+            "email": "d.akatsuka@gmail.com",
+            "homepage": "https://github.com/dakatsuka/JBuilderBundle"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "mockery/mockery": "dev-master",
+        "jbuilder/jbuilder": "dev-master",
+        "symfony/http-foundation": ">=2.2",
+        "symfony/http-kernel": ">=2.2",
+        "symfony/dependency-injection": ">=2.2",
+        "symfony/config": ">=2.2"
+    },
+    "autoload": {
+      "psr-0": { "JBuilder\\JBuilderBundle": "" }
+    },
+    "minimum-stability": "dev"
+}
