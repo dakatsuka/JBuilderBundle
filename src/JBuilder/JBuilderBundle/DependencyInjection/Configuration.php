@@ -1,6 +1,6 @@
 <?php
 
-namespace Dakatsuka\JBuilderBundle\DependencyInjection;
+namespace JBuilder\JBuilderBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;
@@ -18,7 +18,7 @@ class Configuration implements ConfigurationInterface
     public function getConfigTreeBuilder()
     {
         $treeBuilder = new TreeBuilder();
-        $rootNode = $treeBuilder->root('dakatsuka_j_builder');
+        $rootNode = $treeBuilder->root('j_builder_j_builder');
 
         // Here you should define the parameters that are allowed to
         // configure your bundle. See the documentation linked above for
