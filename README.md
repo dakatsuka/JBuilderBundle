@@ -37,7 +37,7 @@ public function indexAction()
 {
     $posts = $this->getDoctrine()->getRepository('Acme\BlogBundle\Entity\Post')->findAll();
 
-    return $this->get('jbuilder')->build('AcmeBlogBundle:Post:index.json.php', array('posts' => $posts));
+    return $this->get('jbuilder')->render('AcmeBlogBundle:Post:index.json.php', array('posts' => $posts));
 }
 ```
 
