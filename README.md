@@ -9,7 +9,7 @@ Add this lines to your composer.json:
 ```json
 {
     "require": {
-        "jbuilder/jbuilder-bundle": "1.0.*@dev"
+        "jbuilder/jbuilder-bundle": "1.0.*"
     }
 }
 ```
@@ -17,7 +17,7 @@ Add this lines to your composer.json:
 And then execute:
 
 ```bash
-$ php composer.phar install --dev
+$ php composer.phar install
 ```
 
 And import a JBuilderBundle to AppKernel.php:
