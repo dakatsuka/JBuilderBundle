@@ -13,7 +13,7 @@
     ],
     "require": {
         "php": ">=5.4",
-        "symfony/framework-bundle": "~2.2",
+        "symfony/framework-bundle": "~2.2|~3.0",
         "jbuilder/common": "1.0.*"
     },
     "require-dev": {
