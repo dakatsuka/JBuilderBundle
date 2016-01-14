@@ -1,6 +1,6 @@
-# JBuilderBundle [![Build Status](https://travis-ci.org/dakatsuka/JBuilderBundle.png?branch=master)](https://travis-ci.org/dakatsuka/JBuilderBundle)
+# JBuilderBundle [![Build Status](https://travis-ci.org/dakatsuka/JBuilderBundle.svg?branch=master)](https://travis-ci.org/dakatsuka/JBuilderBundle)
 
-Symfony2 Bundle for JBuilder
+Symfony2/Symfony3 Bundle for JBuilder
 
 ## Installation
 
@@ -9,7 +9,7 @@ Add this lines to your composer.json:
 ```json
 {
     "require": {
-        "jbuilder/jbuilder-bundle": "1.0.*"
+        "jbuilder/jbuilder-bundle": "~1.0"
     }
 }
 ```
@@ -60,4 +60,4 @@ $json->buildArray($posts, function($json, $post) {
 
 ## Copyright
 
-Copyright (C) 2013 Dai Akatsuka, released under the MIT License.
+Copyright (C) 2016 Dai Akatsuka, released under the MIT License.
